@@ -34,7 +34,7 @@ const ModalEditComment: FC<ModalEditCommentProps> = ({
 			<SingleCommentForm
     className="mt-0"
     onClickCancel={onCloseModalEditComment}
-    onClickSubmit={(data: CommentSubmitData) => {
+    onClickSubmit={(data: any) => {
         comment &&
             onSubmitModalEditComment({ 
                 newContent: data.content, // Assuming 'content' is the string property
