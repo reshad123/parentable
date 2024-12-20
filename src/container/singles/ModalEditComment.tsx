@@ -34,10 +34,7 @@ const ModalEditComment: FC<ModalEditCommentProps> = ({
 			<SingleCommentForm
 				className="mt-0"
 				onClickCancel={onCloseModalEditComment}
-				onClickSubmit={(data) => {
-					comment &&
-						onSubmitModalEditComment({ newContent: data, comment: comment })
-				}}
+				onClickSubmit={(data) => }
 				isAutoFocus
 				isEditingComment
 				defaultValue={contentText}
